@@ -1,0 +1,47 @@
+        //$model = Login::find()->all();
+        // echo "<pre>";
+        // print_r($model);
+        // echo "</pre>";
+
+        ///////////Insert////////////
+        // $model = new login();
+        // $model->f_name="jay";
+        // $model->m_name="m";
+        // $model->l_name="raj";
+        // $model->desig="3";
+        // $model->mo_no="9865473210";
+        // $model->dis="1";
+        // $model->tal="Gandhinagar";
+        // $model->gha="2";
+        // $model->email="raj_jay123@test.com";
+        // $model->pass="123456";
+        // $model->isdeleted="1";
+        // $model->isactive="1";
+
+        // $model->save();
+
+        ////////update/////////////////
+        // $model= login::findone(102);
+        // $model->f_name="jaykisan";
+        // $model->m_name="m";
+        // $model->l_name="malhotra";
+        // $model->desig="3";
+        // $model->mo_no="9865400000";
+        // $model->dis="1";
+        // $model->tal="Gandhinagar";
+        // $model->gha="2";
+        // $model->email="raj_jayk@test.com";
+        // $model->pass="123456";
+        // $model->isdeleted="1";
+        // $model->isactive="1";
+
+        // $model->save();
+
+
+        //////////Delete////////////
+
+        // $model =login::findOne(106);
+        // $model->delete();
+
+
+        /////////// view //////////
