@@ -63,7 +63,20 @@ $config = [
                 
             ],
         ],
-        
+        'urlManagerMySite'=>[
+            'class'=>\yii\web\UrlManager::className(),
+            'enablePrettyUrl' => true,
+            'enableStrictParsing'=> true,
+            'showScriptName' => false,
+            'baseUrl'=>false,
+            'rules'=>[
+                'item/listing'=>'product/items',
+                'product/category/<phone>'=>'product/category',
+                '<phone>-<modelNo>/detail'=>'phone/detail',
+            ],
+
+        ],
+         
     ],
     'params' => $params,
 ];
